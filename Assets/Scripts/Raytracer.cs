@@ -98,7 +98,7 @@ public class Raytracer : MonoBehaviour
         rayTracerMaterial.SetBuffer("spheres", sphereBuffer);
         rayTracerMaterial.SetInt("sphereCount", spheres.Count);
     }
-    public void resetFrameCounter(){
+    public void ResetFrameCounter(){
         frameNumber = 0;
     }
     void OnRenderImage(RenderTexture src, RenderTexture dest)

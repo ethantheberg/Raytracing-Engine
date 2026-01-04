@@ -11,7 +11,7 @@ public class RaytracerEditor : Editor
         DrawDefaultInspector();
         Raytracer raytracer = (Raytracer)target;
         if(GUILayout.Button("Reset Frame Counter")){
-            raytracer.resetFrameCounter();
+            raytracer.ResetFrameCounter();
         }
         if(GUILayout.Button("Update Objects")){
             raytracer.SetEnvironmentSettings();

@@ -142,7 +142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &196711237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25138240e563541308c80f5c905a5c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  albedo: {r: 1, g: 0, b: 0, a: 0}
+  albedo: {r: 0.745283, g: 0, b: 0.6795671, a: 0}
   emmissive: {r: 0, g: 0, b: 0, a: 0}
   emmissiveStrength: 0
   smoothness: 0
@@ -239,8 +239,8 @@ Transform:
   m_GameObject: {fileID: 196711236}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.056, y: -1.131, z: -0.298}
-  m_LocalScale: {x: 0.64645, y: 0.64645, z: 0.64645}
+  m_LocalPosition: {x: -1.228, y: -1.25, z: -0.298}
+  m_LocalScale: {x: 1.1721431, y: 1.1721431, z: 1.1721431}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -919,9 +919,9 @@ MonoBehaviour:
   rayTracerMaterial: {fileID: 2100000, guid: 9829b00457d1f421fa305200404af263, type: 2}
   AccumulatorMaterial: {fileID: 2100000, guid: 6c34790b88f2448be826f3a1520d50ff, type: 2}
   UseOnSceneCamera: 0
-  bounceLimit: 15
+  bounceLimit: 3
   raysPerPixel: 1
-  applyEnvironmentLighting: 1
+  applyEnvironmentLighting: 0
   skyColorHorizon: {r: 0.882353, g: 0.9294118, b: 0.9333334, a: 1}
   skyColorZenith: {r: 0.29411766, g: 0.37647063, b: 0.5176471, a: 1}
   groundColor: {r: 0.41176474, g: 0.38431376, b: 0.36078432, a: 1}
@@ -979,6 +979,128 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &981573777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 981573782}
+  - component: {fileID: 981573781}
+  - component: {fileID: 981573780}
+  - component: {fileID: 981573779}
+  - component: {fileID: 981573778}
+  m_Layer: 0
+  m_Name: Sphere (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &981573778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981573777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25138240e563541308c80f5c905a5c4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  albedo: {r: 0.7924528, g: 0.71256125, b: 0, a: 0}
+  emmissive: {r: 0, g: 0, b: 0, a: 0}
+  emmissiveStrength: 0
+  smoothness: 0.84
+--- !u!135 &981573779
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981573777}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &981573780
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981573777}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &981573781
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981573777}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &981573782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981573777}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.36, y: 0.907, z: -0.298}
+  m_LocalScale: {x: 0.64645, y: 0.64645, z: 0.64645}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1482518351
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,7 +1277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c90e7c58149c9a94caa8bc7ae758c7cf, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1603,7 +1725,7 @@ Transform:
   m_GameObject: {fileID: 7738261035907387459}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.96026385, z: 0.27909392, w: 0}
-  m_LocalPosition: {x: 0.24, y: -1.623, z: 0}
+  m_LocalPosition: {x: 0.24, y: -0.124, z: -0.327}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1635,7 +1757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &7738261035907387460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1667,4 +1789,5 @@ SceneRoots:
   - {fileID: 1712421528}
   - {fileID: 708676317}
   - {fileID: 196711241}
+  - {fileID: 981573782}
   - {fileID: 1613658992}

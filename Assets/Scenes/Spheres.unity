@@ -209,13 +209,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570016874}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08522576, y: -0.88872176, z: 0.18426828, w: 0.4110419}
-  m_LocalPosition: {x: 3.168, y: 0.581, z: 0.258}
+  m_LocalRotation: {x: 0.07939805, y: -0.39518318, z: 0.04612853, w: 0.91400135}
+  m_LocalPosition: {x: 1.378, y: -0.4, z: -2.101}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 23.428, y: -130.358, z: 0}
+  m_LocalEulerAnglesHint: {x: 10.463, y: -46.649, z: 1.257}
 --- !u!114 &570016878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,11 +235,11 @@ MonoBehaviour:
   raysPerPixel: 10
   applyEnvironmentLighting: 0
   skyColorHorizon: {r: 0.46457815, g: 0.6792453, b: 0.6505903, a: 1}
-  skyColorZenith: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
-  groundColor: {r: 0.5660378, g: 0.3087479, b: 0, a: 1}
+  skyColorZenith: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+  groundColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
   sunFocus: 9.99
-  sunIntensity: 1
-  accumulate: 0
+  sunIntensity: 3
+  accumulate: 1
 --- !u!1 &1517460539
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,8 +416,8 @@ Transform:
   m_GameObject: {fileID: 5360947936014942217}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3439999, y: -0.6919999, z: -0.8669996}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalPosition: {x: 0.644, y: -0.6919999, z: 0.512}
+  m_LocalScale: {x: 0.55495, y: 0.55495, z: 0.55495}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -489,7 +489,7 @@ Transform:
   m_GameObject: {fileID: 7975093168470403077}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.42400002, y: -0.95000005, z: 0.029000282}
+  m_LocalPosition: {x: 0.524, y: -0.95000005, z: -0.684}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25138240e563541308c80f5c905a5c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  albedo: {r: 0, g: 0.57650054, b: 0.8679245, a: 0}
+  albedo: {r: 0.8666667, g: 0.8077739, b: 0, a: 0}
   emmissive: {r: 0, g: 0, b: 0, a: 0}
   emmissiveStrength: 0
   smoothness: 0
@@ -615,7 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25138240e563541308c80f5c905a5c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  albedo: {r: 0.22352938, g: 0.73333335, b: 0.232171, a: 0}
+  albedo: {r: 0.47120178, g: 0.22352938, b: 0.73333335, a: 0}
   emmissive: {r: 0, g: 0, b: 0, a: 0}
   emmissiveStrength: 0
   smoothness: 0
@@ -629,7 +629,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.6199999, z: -1.809}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.61109, y: 0.61109, z: 0.61109}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25138240e563541308c80f5c905a5c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  albedo: {r: 0.6886792, g: 0.1786668, b: 0.1786668, a: 0}
+  albedo: {r: 0.18039216, g: 0.6901961, b: 0.28112134, a: 0}
   emmissive: {r: 0, g: 0, b: 0, a: 0}
   emmissiveStrength: 0
   smoothness: 0
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25138240e563541308c80f5c905a5c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  albedo: {r: 0.22352938, g: 0.73333335, b: 0.232171, a: 0}
+  albedo: {r: 0.754717, g: 0.046279836, b: 0.1073054, a: 0}
   emmissive: {r: 0, g: 0, b: 0, a: 0}
   emmissiveStrength: 0
   smoothness: 0
@@ -1020,8 +1020,8 @@ Transform:
   m_GameObject: {fileID: 3459750253672168654}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.28399992, y: -0.86399984, z: -1.0950003}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalPosition: {x: -0.106, y: -0.654, z: -0.863}
+  m_LocalScale: {x: 0.5019, y: 0.5019, z: 0.5019}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   albedo: {r: 1, g: 1, b: 1, a: 0}
   emmissive: {r: 0, g: 0, b: 0, a: 0}
-  emmissiveStrength: 0
+  emmissiveStrength: 5
   smoothness: 0.8
 --- !u!1 &7975093168470403077
 GameObject:
